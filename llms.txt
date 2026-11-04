@@ -1,0 +1,21 @@
+# L'AquiLive
+
+> App gratuita e senza pubblicità con gli eventi, le notizie, gli sconti e i servizi di L'Aquila e dintorni, per iPhone e Android, in 9 lingue (italiano, inglese, francese, spagnolo, tedesco, cinese, arabo, giapponese, coreano). Ideata e costruita da Mirko Rocci, fisico e tecnologo aquilano. Oltre 1.600 download.
+
+## Cosa contiene l'app
+- Eventi di L'Aquila e dintorni (concerti, teatro, mostre, sagre, conferenze, Perdonanza Celestiniana), filtrabili per data e per tema
+- Mappa interattiva con eventi, luoghi di interesse, parcheggi e fontanelle
+- News locali delle testate aquilane, con il rimando all'articolo originale
+- Farmacie di turno, trasporti (linee urbane, Roma, aeroporti, navette, taxi), raccolta differenziata con promemoria serale
+- Cinema, luoghi da scoprire, sconti riservati agli utenti, segnalazione degli eventi da parte di chiunque
+
+## Link
+- [Pagina dell'app](https://laquilive.it/)
+- [Google Play](https://play.google.com/store/apps/details?id=it.aqlive99.app)
+- [App Store](https://apps.apple.com/it/app/laquilive/id6796280318)
+- [Privacy](https://mirkorocci.it/laquilive-privacy.html)
+- [Regolamento degli Sconti](https://mirkorocci.it/laquilive-regolamento-sconti.html)
+- [Autore, Mirko Rocci](https://mirkorocci.it/)
+
+## Contatti
+mirko.rocci@gmail.com

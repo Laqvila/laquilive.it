@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scarica L'AquiLive</title>
+  <!-- Passaggio diretto allo store: laquilive.it/scarica (per QR, locandine e post)
+       · riconosce il telefono: iPhone va sull'App Store, tutti gli altri su Google Play
+       · «?da=parola» dice da quale canale arriva il tocco (instagram, locandina-bar, ilcentro…):
+         il tocco si conta nello Studio, senza indirizzo IP e senza identificativi
+       · su Google Play la stessa parola viaggia come utm_source, così compare anche nei
+         rapporti di acquisizione della Play Console
+       · senza «?da=» il canale è «laquilive-scarica»
+       noindex: la pagina è solo un passaggio, non un contenuto da indicizzare. -->
+  <meta name="robots" content="noindex">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src https://kdgytiribodwqccvwzvc.supabase.co; object-src 'none'; base-uri 'self'">
+  <!-- ripiego per chi ha JavaScript spento: dopo due secondi si va comunque su Google Play -->
+  <meta http-equiv="refresh" content="2; url=https://play.google.com/store/apps/details?id=it.aqlive99.app">
+  <link rel="icon" href="/assets/favicon.ico" sizes="any">
+  <script src="/js/scarica.js"></script>
+  <style>
+    body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+           background: #0B0908; color: #EDE8DE; font-family: system-ui, -apple-system, sans-serif; text-align: center; }
+    a { color: #F5820C; font-weight: 700; }
+    p { font-size: 1.05rem; line-height: 1.6; padding: 0 24px; }
+    img { width: 72px; height: 72px; border-radius: 18px; }
+  </style>
+</head>
+<body>
+  <div>
+    <img src="/assets/icona-192.png" alt="" width="72" height="72">
+    <p>Ti stiamo portando allo store per scaricare <strong>L'AquiLive</strong>…<br>
+      <a href="https://play.google.com/store/apps/details?id=it.aqlive99.app">Android (Google Play)</a> ·
+      <a href="https://apps.apple.com/it/app/laquilive/id6796280318">iPhone (App Store)</a></p>
+  </div>
+</body>
+</html>
