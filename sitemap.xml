@@ -2,8 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://laquilive.it/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://laquilive.it/privacy/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://laquilive.it/termini/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://laquilive.it/eliminazione-account/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://laquilive.it/regolamento-sconti/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://laquilive.it/fonti/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>

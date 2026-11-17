@@ -13,8 +13,8 @@
 - [Pagina dell'app](https://laquilive.it/)
 - [Google Play](https://play.google.com/store/apps/details?id=it.aqlive99.app)
 - [App Store](https://apps.apple.com/it/app/laquilive/id6796280318)
-- [Privacy](https://mirkorocci.it/laquilive-privacy.html)
-- [Regolamento degli Sconti](https://mirkorocci.it/laquilive-regolamento-sconti.html)
+- [Privacy](https://laquilive.it/privacy/)
+- [Regolamento degli Sconti](https://laquilive.it/regolamento-sconti/)
 - [Autore, Mirko Rocci](https://mirkorocci.it/)
 
 ## Contatti

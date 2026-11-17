@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Sicurezza: niente script in linea, i conteggi dei tocchi vanno solo verso Supabase -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; connect-src https://kdgytiribodwqccvwzvc.supabase.co; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self'; connect-src https://kdgytiribodwqccvwzvc.supabase.co; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>L'AquiLive · L'app gratuita degli eventi di L'Aquila</title>
 <meta name="description" content="L'AquiLive è l'app gratuita e senza pubblicità con gli eventi, le notizie, gli sconti e i servizi di L'Aquila e dintorni. Mappa, farmacie di turno, autobus e raccolta differenziata, per iPhone e Android, in 9 lingue.">
@@ -30,9 +30,8 @@
 <meta name="twitter:description" content="Eventi, notizie, sconti e servizi di L'Aquila e dintorni in un'unica app, gratuita e senza pubblicità.">
 <meta name="twitter:image" content="https://laquilive.it/assets/og-laquilive.jpg">
 <meta name="apple-itunes-app" content="app-id=6796280318">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" href="/assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/fonts/caratteri.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,8 +66,7 @@
       ],
       "sameAs": [
         "https://play.google.com/store/apps/details?id=it.aqlive99.app",
-        "https://apps.apple.com/it/app/laquilive/id6796280318",
-        "https://mirkorocci.it/laquilive/"
+        "https://apps.apple.com/it/app/laquilive/id6796280318"
       ],
       "spatialCoverage": { "@type": "Place", "name": "L'Aquila e provincia", "address": { "@type": "PostalAddress", "addressLocality": "L'Aquila", "addressRegion": "AQ", "addressCountry": "IT" } },
       "author": { "@type": "Person", "@id": "https://mirkorocci.it/#person", "name": "Mirko Rocci", "url": "https://mirkorocci.it/" },
@@ -450,7 +448,7 @@
       <div>
         <h2>Hai un'attività? Entra negli Sconti</h2>
         <p>Dentro l'app c'è una sezione dedicata alle offerte di bar, ristoranti, negozi, strutture ricettive ed esperienze del territorio, riservate a chi usa l'app. Entrare è gratuito, senza quote e senza commissioni sugli incassi. In cambio ottieni visibilità presso residenti e visitatori.</p>
-        <p>Scrivi a <a class="link-inline" href="mailto:mirko.rocci@gmail.com?subject=L'AquiLive%2C%20sezione%20Sconti">mirko.rocci@gmail.com</a>. Le poche regole, a partire dalla più importante, cioè che lo sconto sia reale e venga praticato davvero, sono nel <a class="link-inline" href="https://mirkorocci.it/laquilive-regolamento-sconti.html">regolamento degli Sconti</a>.</p>
+        <p>Scrivi a <a class="link-inline" href="mailto:mirko.rocci@gmail.com?subject=L'AquiLive%2C%20sezione%20Sconti">mirko.rocci@gmail.com</a>. Le poche regole, a partire dalla più importante, cioè che lo sconto sia reale e venga praticato davvero, sono nel <a class="link-inline" href="/regolamento-sconti/">regolamento degli Sconti</a>.</p>
       </div>
     </div>
   </div>
@@ -489,7 +487,7 @@
       <details class="reveal"><summary>Come si segnala un evento?</summary><p>Chiunque può proporre un evento direttamente dall'app. Dopo una verifica redazionale viene pubblicato e diventa visibile a tutti.</p></details>
       <details class="reveal"><summary>Chi ha creato L'AquiLive?</summary><p>L'app è stata ideata e costruita da <a class="link-inline" href="https://mirkorocci.it/">Mirko Rocci</a>, fisico e tecnologo aquilano.</p></details>
       <details class="reveal"><summary>Come può un'attività entrare negli Sconti?</summary><p>Scrivendo a <a class="link-inline" href="mailto:mirko.rocci@gmail.com?subject=L'AquiLive%2C%20sezione%20Sconti">mirko.rocci@gmail.com</a>. L'inserimento è gratuito, senza quote né commissioni, e la regola principale è che lo sconto sia reale e venga praticato davvero.</p></details>
-      <details class="reveal"><summary>Come elimino il mio account?</summary><p>Dall'app, in Profilo, con l'eliminazione definitiva. Tutti i passaggi sono nella <a class="link-inline" href="https://mirkorocci.it/laquilive-eliminazione-account.html">pagina dedicata</a>.</p></details>
+      <details class="reveal"><summary>Come elimino il mio account?</summary><p>Dall'app, in Profilo, con l'eliminazione definitiva. Tutti i passaggi sono nella <a class="link-inline" href="/eliminazione-account/">pagina dedicata</a>.</p></details>
     </div>
   </div>
 </section>
@@ -522,11 +520,11 @@
   <div class="container">
     <span>Ideata e curata da <a href="https://mirkorocci.it/">Mirko Rocci</a></span>
     <nav aria-label="Documenti">
-      <a href="https://mirkorocci.it/laquilive-privacy.html">Privacy</a>
-      <a href="https://mirkorocci.it/laquilive-termini.html">Termini d'uso</a>
-      <a href="https://mirkorocci.it/laquilive-regolamento-sconti.html">Regolamento sconti</a>
-      <a href="https://mirkorocci.it/laquilive-fonti.html">Fonti</a>
-      <a href="https://mirkorocci.it/laquilive-eliminazione-account.html">Eliminare l'account</a>
+      <a href="/privacy/">Privacy</a>
+      <a href="/termini/">Termini d'uso</a>
+      <a href="/regolamento-sconti/">Regolamento sconti</a>
+      <a href="/fonti/">Fonti</a>
+      <a href="/eliminazione-account/">Eliminare l'account</a>
     </nav>
   </div>
 </footer>
